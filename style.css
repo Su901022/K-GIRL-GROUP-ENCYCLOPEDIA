@@ -1,0 +1,851 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7fb;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ffe6f0;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.welcome h2 {
+    font-size: 30px;
+}
+
+.groups h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.group-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+.group-card:hover {
+    transform: translateY(-5px);
+}
+
+.group-card h3 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.group-card p {
+    color: #888;
+    font-size: 17px;
+}
+
+.group-card span {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.group-info {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.info-box {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+
+.members {
+    margin-bottom: 60px;
+}
+
+.members h2,
+.discography h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.member-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.member-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.member-card h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+
+.member-card p {
+    color: #888;
+}
+
+
+.discography {
+    margin-bottom: 50px;
+}
+
+
+.album-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.album-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.album-card h3 {
+    margin-bottom: 8px;
+}
+
+
+.album-card p {
+    color: #888;
+}
+
+
+.back-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 12px 25px;
+    background-color: #ffe6f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.group-card {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+/* =========================
+   Sullyoon Member Page
+   ========================= */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7fb;
+    color: #333;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.member-header {
+    text-align: center;
+    padding: 75px 20px;
+
+    background: linear-gradient(
+        180deg,
+        #ffe6f0,
+        #fff7fb
+    );
+}
+
+.small-title {
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #b58b9b;
+}
+
+.member-header h1 {
+    font-size: 52px;
+    margin: 10px 0;
+    letter-spacing: 3px;
+}
+
+.korean-title {
+    font-size: 23px;
+    color: #888;
+    margin: 8px;
+}
+
+.group-name {
+    color: #aaa;
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.member-hero {
+    max-width: 850px;
+    margin: 0 auto 70px;
+
+    padding: 45px;
+
+    background: white;
+
+    border-radius: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 35px;
+
+    box-shadow:
+        0 8px 30px
+        rgba(0,0,0,0.07);
+}
+
+.member-symbol {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    background-color: #ffe6f0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 60px;
+
+    flex-shrink: 0;
+}
+
+.profile-label {
+    color: #c08fa4;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.member-hero h2 {
+    font-size: 32px;
+    margin: 8px 0;
+}
+
+.hero-korean {
+    color: #999;
+    font-size: 18px;
+}
+
+.intro-text {
+    color: #777;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.member-section {
+    max-width: 900px;
+    margin: 0 auto 75px;
+}
+
+.section-heading {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+}
+
+.section-heading > span {
+    font-size: 35px;
+}
+
+.section-heading h2 {
+    margin: 0 0 5px;
+
+    font-size: 28px;
+}
+
+.section-heading p {
+    margin: 0;
+
+    color: #aaa;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   PROFILE
+========================= */
+
+.profile-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+.profile-card {
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0,0,0,0.06);
+}
+
+.profile-card span {
+    display: block;
+
+    color: #aaa;
+
+    font-size: 13px;
+
+    margin-bottom: 10px;
+}
+
+.profile-card strong {
+    font-size: 17px;
+}
+
+
+/* =========================
+   INFO CARD
+========================= */
+
+.info-card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0,0,0,0.06);
+}
+
+.info-card h3 {
+    margin-top: 0;
+
+    font-size: 22px;
+}
+
+.info-card p {
+    color: #777;
+
+    line-height: 1.8;
+}
+
+.highlight-card {
+    text-align: center;
+
+    background: #fff0f6;
+}
+
+.big-date {
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #b77d95;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   ACTIVITIES
+========================= */
+
+.activity-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+.activity-card {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0,0,0,0.06);
+}
+
+.activity-year {
+    min-width: 70px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: #c18da3;
+}
+
+.activity-card h3 {
+    margin: 0 0 8px;
+}
+
+.activity-card p {
+    margin: 0;
+
+    color: #888;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   MUSIC
+========================= */
+
+.music-card {
+    background: white;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0,0,0,0.06);
+}
+
+.music-item {
+    display: flex;
+
+    gap: 25px;
+
+    padding: 25px;
+
+    border-bottom: 1px solid #f3e6eb;
+}
+
+.music-item:last-child {
+    border-bottom: none;
+}
+
+.music-type {
+    min-width: 80px;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    color: #c18da3;
+}
+
+.music-item h3 {
+    margin: 0 0 8px;
+}
+
+.music-item p {
+    margin: 0;
+
+    color: #888;
+}
+
+
+/* =========================
+   LIKES
+========================= */
+
+.likes-box {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 12px;
+}
+
+.likes-box span {
+    background: white;
+
+    padding: 13px 20px;
+
+    border-radius: 30px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(0,0,0,0.05);
+}
+
+
+/* =========================
+   FUN FACTS
+========================= */
+
+.fact-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 22px;
+}
+
+.fact-card {
+    position: relative;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 6px 25px
+        rgba(0,0,0,0.06);
+
+    transition: 0.2s;
+}
+
+.fact-card:hover {
+    transform: translateY(-5px);
+}
+
+.fact-number {
+    position: absolute;
+
+    top: 20px;
+
+    right: 25px;
+
+    color: #ddd;
+
+    font-size: 12px;
+}
+
+.fact-icon {
+    font-size: 40px;
+
+    margin-bottom: 15px;
+}
+
+.fact-card h3 {
+    margin-bottom: 10px;
+}
+
+.fact-card p {
+    color: #888;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   TIMELINE
+========================= */
+
+.timeline {
+    position: relative;
+
+    max-width: 750px;
+
+    margin: auto;
+}
+
+.timeline::before {
+    content: "";
+
+    position: absolute;
+
+    left: 85px;
+
+    top: 0;
+
+    bottom: 0;
+
+    width: 2px;
+
+    background-color: #f0d6e1;
+}
+
+.timeline-item {
+    display: flex;
+
+    gap: 35px;
+
+    margin-bottom: 30px;
+
+    position: relative;
+}
+
+.timeline-year {
+    width: 70px;
+
+    font-weight: bold;
+
+    color: #b77d95;
+
+    text-align: right;
+}
+
+.timeline-content {
+    background: white;
+
+    padding: 22px;
+
+    border-radius: 18px;
+
+    flex: 1;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0,0,0,0.05);
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+}
+
+.timeline-content p {
+    color: #888;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   GROUP LINK
+========================= */
+
+.group-link {
+    max-width: 500px;
+
+    margin: auto;
+
+    padding: 25px 30px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    color: #333;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0,0,0,0.06);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.group-link strong {
+    font-size: 22px;
+}
+
+.group-link p {
+    color: #999;
+}
+
+.group-link > span {
+    font-size: 25px;
+
+    color: #aaa;
+}
+
+
+/* =========================
+   BACK BUTTON
+========================= */
+
+.back-button {
+    display: block;
+
+    width: fit-content;
+
+    margin: 50px auto;
+
+    padding: 13px 28px;
+
+    background-color: #ffe6f0;
+
+    color: #333;
+
+    text-decoration: none;
+
+    border-radius: 25px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .member-header h1 {
+        font-size: 40px;
+    }
+
+    .member-hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 30px;
+
+        margin: 20px 10px 50px;
+    }
+
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .activity-card {
+        align-items: flex-start;
+    }
+
+    .timeline::before {
+        display: none;
+    }
+
+    .timeline-item {
+        gap: 10px;
+
+        flex-direction: column;
+    }
+
+    .timeline-year {
+        text-align: left;
+    }
+
+}
+.member-card{
+    background-color: white;
+    padding:25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    transition: transform .2s;
+    text-decoration: none;
+    color:#333;
+    display: block;
+}
+.member-card:hover{
+    transform: translateY(-5px);
+}
+
+/*Haewon 個人頁面*/
+.member-section{
+max-width:1000px;
+margin: 40PX auto;
+padding:0 20px;
+}
+.member-section h2{
+    margin-bottom: 20px;
+}
+ .profile-grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr) !important;
+    gap:20px;
+  
+ }
+ .profile {
+    max-width: 900px;
+    margin: 0 auto 60px;
+}
+
+.profile h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
